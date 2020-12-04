@@ -1,0 +1,6 @@
+Function to arrow function
+Search:
+function\s?(\(\w*\))\s\{
+Replace:
+$1 => {
+
