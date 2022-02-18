@@ -1,6 +1,8 @@
-Function to arrow function
-Search:
-function\s?(\(\w*\))\s\{
-Replace:
-$1 => {
+--- Function to arrow function ---
+Search: function\s?(\(\w*\))\s\{
+Replace: $1 => {
+
+--- Remove multiple lines ---
+Search: ^(.*)(\r?\n\1)+$
+Replace: $1
 
